@@ -1,0 +1,112 @@
+{ 
+  "grafico": [ 
+    { 
+      "nombre": "Nodo 1", 
+      "datos": [ 
+        { 
+          "id": 1, 
+          "etiqueta": "N1", 
+          "datos": {}, 
+          "tipo": "Objeto" , 
+          "vinculado a": [ 
+            { 
+              "nodeId": 2, 
+              "distancia": 120 
+            }, 
+            { 
+              "nodeId": 4, 
+              "distancia": 87 
+            }, 
+            { 
+              "nodeId": 5, 
+              "distancia":101 
+            } 
+          ], 
+          "radio": 0.4, 
+          "coordenadas": {
+            "x": 25, 
+            "y": 34 
+          } 
+        }, 
+        { 
+          "id": 2, 
+          "etiqueta": "N2", 
+          "datos": {}, 
+          "tipo": "función", 
+          "vinculado a": [ 
+            { 
+              "nodeId": 1, 
+              "distancia": 120 
+            }, 
+            { 
+              "nodeId": 7, 
+              "distancia": 45 
+            }, 
+            { 
+              "nodeId": 3, 
+              "distancia":17 
+            } 
+          ], 
+          "radio": 0.2, 
+          "coordenadas": {
+            "x": 37, 
+            "y": 15 
+          } 
+        }, 
+        { 
+          "id": 3, 
+          "etiqueta": "N3", 
+          "datos": {}, 
+          "tipo": "objeto", 
+          "vinculado a": [ 
+            { 
+              "nodeId": 5, 
+              "distancia": 86 
+            }, 
+            { 
+              "nodeId": 2, 
+              "distancia": 17 
+            }, 
+            { 
+              "nodeId": 9, 
+              "distancia":15 
+            } 
+          ], 
+          "radio": 1, 
+          "coordenadas": {
+            "x": 75, 
+            "y": 43 
+          } 
+        }, 
+        { 
+          "id": 12, 
+          "etiqueta": "N12", 
+          "datos": {}, 
+          "tipo": "función", 
+          "vinculado a": [ 
+            { 
+              "nodeId": 14, 
+              "distancia": 120 
+            }, 
+            { 
+              "nodeId": 17, 
+              "distancia": 87 
+            }, 
+            { 
+              "nodeId": 11, 
+              "distancia":101 
+            } 
+          ], 
+          "radio": 0.6, 
+          "coordenadas": {
+            "x": 123, 
+            "y": 167 
+          } 
+        } 
+      ] 
+    } 
+  ], 
+  "datosgenerales1": 100, 
+  "datosgenerales2": "Alg", 
+  "datosgenerales3": 300 
+}

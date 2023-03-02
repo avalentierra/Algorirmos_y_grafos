@@ -1,0 +1,71 @@
+{
+    "grafico": [
+        {
+            "datos": [
+                {
+                    "id": "A",
+                    "etiqueta": "N1",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "C",
+                            "distancia": 48
+                        },
+                        {
+                            "nodeId": "B",
+                            "distancia": 2
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "B",
+                    "etiqueta": "N2",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "A",
+                            "distancia": 2
+                        },
+                        {
+                            "nodeId": "C",
+                            "distancia": 29
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "C",
+                    "etiqueta": "N3",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "A",
+                            "distancia": 48
+                        },
+                        {
+                            "nodeId": "B",
+                            "distancia": 29
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                }
+            ]
+        }
+    ]
+}

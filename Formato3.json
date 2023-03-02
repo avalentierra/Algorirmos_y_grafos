@@ -1,0 +1,182 @@
+{
+    "grafico": [
+        {
+            "datos": [
+                {
+                    "id": "A",
+                    "etiqueta": "N1",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "D",
+                            "distancia": 45
+                        },
+                        {
+                            "nodeId": "F",
+                            "distancia": 10
+                        },
+                        {
+                            "nodeId": "E",
+                            "distancia": 29
+                        },
+                        {
+                            "nodeId": "B",
+                            "distancia": 49
+                        },
+                        {
+                            "nodeId": "C",
+                            "distancia": 22
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "B",
+                    "etiqueta": "N2",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "D",
+                            "distancia": 44
+                        },
+                        {
+                            "nodeId": "C",
+                            "distancia": 32
+                        },
+                        {
+                            "nodeId": "A",
+                            "distancia": 49
+                        },
+                        {
+                            "nodeId": "F",
+                            "distancia": 26
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "C",
+                    "etiqueta": "N3",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "B",
+                            "distancia": 32
+                        },
+                        {
+                            "nodeId": "A",
+                            "distancia": 22
+                        },
+                        {
+                            "nodeId": "D",
+                            "distancia": 50
+                        },
+                        {
+                            "nodeId": "F",
+                            "distancia": 23
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "D",
+                    "etiqueta": "N4",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "A",
+                            "distancia": 45
+                        },
+                        {
+                            "nodeId": "B",
+                            "distancia": 44
+                        },
+                        {
+                            "nodeId": "C",
+                            "distancia": 50
+                        },
+                        {
+                            "nodeId": "E",
+                            "distancia": 9
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "E",
+                    "etiqueta": "N5",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "A",
+                            "distancia": 29
+                        },
+                        {
+                            "nodeId": "F",
+                            "distancia": 25
+                        },
+                        {
+                            "nodeId": "D",
+                            "distancia": 9
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                },
+                {
+                    "id": "F",
+                    "etiqueta": "N6",
+                    "datos": {},
+                    "tipo": "Objeto",
+                    "vinculado a": [
+                        {
+                            "nodeId": "A",
+                            "distancia": 10
+                        },
+                        {
+                            "nodeId": "E",
+                            "distancia": 25
+                        },
+                        {
+                            "nodeId": "C",
+                            "distancia": 23
+                        },
+                        {
+                            "nodeId": "B",
+                            "distancia": 26
+                        }
+                    ],
+                    "radio": 0.4,
+                    "coordenadas": {
+                        "x": 25,
+                        "y": 34
+                    }
+                }
+            ]
+        }
+    ]
+}
